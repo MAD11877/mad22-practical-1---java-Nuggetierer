@@ -13,12 +13,11 @@ public class Question2
     Scanner in1 = new Scanner(System.in);
     System.out.println("Enter Height: ");
     double height = in1.nextDouble();
-    height = height/10;
     
     Scanner in2 = new Scanner(System.in);
     System.out.println("Enter Weight: ");
     double weight = in2.nextDouble();
     
-    System.out.println(weight / (height  * height));
+    System.out.println(weight/height/height);
   }
 }
